@@ -142,42 +142,43 @@ public class Update_Book extends javax.swing.JFrame {
         Book_name_jtext.setFont(new java.awt.Font("Mali", 0, 16)); // NOI18N
         getContentPane().add(Book_name_jtext, new org.netbeans.lib.awtextra.AbsoluteConstraints(960, 90, 260, 30));
 
-        jLabel16.setFont(new java.awt.Font("Mali", 0, 18)); // NOI18N
-        jLabel16.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel16.setFont(new java.awt.Font("Lucida Sans", 0, 18)); // NOI18N
+        jLabel16.setForeground(new java.awt.Color(255, 255, 153));
         jLabel16.setText("จำนวน :");
         getContentPane().add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(880, 450, 80, 30));
 
-        jLabel15.setFont(new java.awt.Font("Mali", 0, 18)); // NOI18N
-        jLabel15.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel15.setFont(new java.awt.Font("Lucida Sans", 0, 18)); // NOI18N
+        jLabel15.setForeground(new java.awt.Color(255, 255, 153));
         jLabel15.setText("เล่มที่ :");
         getContentPane().add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 170, 60, 30));
 
-        jLabel14.setFont(new java.awt.Font("Mali", 0, 18)); // NOI18N
-        jLabel14.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel14.setFont(new java.awt.Font("Lucida Sans", 0, 18)); // NOI18N
+        jLabel14.setForeground(new java.awt.Color(255, 255, 153));
         jLabel14.setText("ราคา :");
         getContentPane().add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 510, 60, 30));
 
-        jLabel13.setFont(new java.awt.Font("Mali", 0, 18)); // NOI18N
-        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel13.setFont(new java.awt.Font("Lucida Sans", 0, 18)); // NOI18N
+        jLabel13.setForeground(new java.awt.Color(255, 255, 153));
         jLabel13.setText("สำนักพิพม์ :");
         getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(860, 380, 100, 30));
 
-        jLabel12.setFont(new java.awt.Font("Mali", 0, 18)); // NOI18N
-        jLabel12.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel12.setFont(new java.awt.Font("Lucida Sans", 0, 18)); // NOI18N
+        jLabel12.setForeground(new java.awt.Color(255, 255, 153));
         jLabel12.setText("ผู้เขียน :");
         getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(890, 310, 70, 30));
 
-        jLabel10.setFont(new java.awt.Font("Mali", 0, 18)); // NOI18N
-        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel10.setFont(new java.awt.Font("Lucida Sans", 0, 18)); // NOI18N
+        jLabel10.setForeground(new java.awt.Color(255, 255, 153));
         jLabel10.setText("ประเภทหนังสือ :");
         getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 240, 150, 30));
 
-        jLabel9.setFont(new java.awt.Font("Mali", 0, 18)); // NOI18N
-        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel9.setFont(new java.awt.Font("Lucida Sans", 0, 18)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(255, 255, 153));
         jLabel9.setText("ชื่อหนังสือ :");
         getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(860, 90, 100, 30));
 
-        update_book.setFont(new java.awt.Font("Mali", 0, 18)); // NOI18N
+        update_book.setFont(new java.awt.Font("Lucida Sans", 0, 18)); // NOI18N
+        update_book.setForeground(new java.awt.Color(0, 0, 204));
         update_book.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/edit.png"))); // NOI18N
         update_book.setText("เเก้ไขหนังสือ");
         update_book.setBorder(null);
@@ -208,7 +209,8 @@ public class Update_Book extends javax.swing.JFrame {
 
         getContentPane().add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 110, 730, 500));
 
-        Back.setFont(new java.awt.Font("Mali", 0, 20)); // NOI18N
+        Back.setFont(new java.awt.Font("Lucida Sans", 0, 18)); // NOI18N
+        Back.setForeground(new java.awt.Color(0, 0, 204));
         Back.setText("Back");
         Back.setBorder(null);
         Back.addActionListener(new java.awt.event.ActionListener() {
@@ -221,7 +223,8 @@ public class Update_Book extends javax.swing.JFrame {
         SeachBar.setFont(new java.awt.Font("Mali", 0, 16)); // NOI18N
         getContentPane().add(SeachBar, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 70, 430, 30));
 
-        SearchItem.setFont(new java.awt.Font("Mali", 0, 16)); // NOI18N
+        SearchItem.setFont(new java.awt.Font("Lucida Sans", 0, 18)); // NOI18N
+        SearchItem.setForeground(new java.awt.Color(0, 0, 204));
         SearchItem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/search.png"))); // NOI18N
         SearchItem.setText("ค้นหา");
         SearchItem.setBorder(null);
@@ -232,13 +235,13 @@ public class Update_Book extends javax.swing.JFrame {
         });
         getContentPane().add(SearchItem, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 70, 130, 30));
 
-        jLabel4.setFont(new java.awt.Font("Mali", 0, 18)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel4.setFont(new java.awt.Font("Lucida Sans", 0, 18)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 153));
         jLabel4.setText("ค้นหาชื่อหนังสือ :");
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 70, -1, 30));
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/pocket_monsters_2019_anime_logo_translation_by_sliter_ddomqsd-fullview.png"))); // NOI18N
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 0, -1, 50));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 0, -1, 50));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/BG (1).jpg"))); // NOI18N
         jLabel1.setText("jLabel1");

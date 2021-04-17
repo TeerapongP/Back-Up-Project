@@ -65,7 +65,8 @@ public class Main extends javax.swing.JFrame {
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1280, 50));
 
-        Report.setFont(new java.awt.Font("Mali", 0, 24)); // NOI18N
+        Report.setFont(new java.awt.Font("Lucida Sans", 0, 24)); // NOI18N
+        Report.setForeground(new java.awt.Color(0, 204, 0));
         Report.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/excel (1).png"))); // NOI18N
         Report.setText("ออกรายงาน");
         Report.setBorder(null);
@@ -76,7 +77,7 @@ public class Main extends javax.swing.JFrame {
         });
         getContentPane().add(Report, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 350, 250, 70));
 
-        Log_Out.setFont(new java.awt.Font("Mali", 0, 24)); // NOI18N
+        Log_Out.setFont(new java.awt.Font("Lucida Sans", 0, 24)); // NOI18N
         Log_Out.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/logout (1).png"))); // NOI18N
         Log_Out.setText("ออกจากระบบ");
         Log_Out.setBorder(null);
@@ -87,8 +88,9 @@ public class Main extends javax.swing.JFrame {
         });
         getContentPane().add(Log_Out, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 350, 250, 70));
 
-        Return_Book.setFont(new java.awt.Font("Mali", 0, 24)); // NOI18N
-        Return_Book.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/return-book-560235.png"))); // NOI18N
+        Return_Book.setFont(new java.awt.Font("Lucida Sans", 0, 24)); // NOI18N
+        Return_Book.setForeground(new java.awt.Color(255, 0, 0));
+        Return_Book.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/74171.png"))); // NOI18N
         Return_Book.setText("ซื้อหนังสือ");
         Return_Book.setBorder(null);
         Return_Book.addActionListener(new java.awt.event.ActionListener() {
@@ -98,7 +100,8 @@ public class Main extends javax.swing.JFrame {
         });
         getContentPane().add(Return_Book, new org.netbeans.lib.awtextra.AbsoluteConstraints(890, 210, 250, 70));
 
-        Manage_Member_Ship.setFont(new java.awt.Font("Mali", 0, 24)); // NOI18N
+        Manage_Member_Ship.setFont(new java.awt.Font("Lucida Sans", 0, 24)); // NOI18N
+        Manage_Member_Ship.setForeground(new java.awt.Color(255, 0, 255));
         Manage_Member_Ship.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/member (1).png"))); // NOI18N
         Manage_Member_Ship.setText("จัดการสมาชิก");
         Manage_Member_Ship.setBorder(null);
@@ -109,7 +112,8 @@ public class Main extends javax.swing.JFrame {
         });
         getContentPane().add(Manage_Member_Ship, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 210, 250, 70));
 
-        Manage_Book.setFont(new java.awt.Font("Mali", 0, 24)); // NOI18N
+        Manage_Book.setFont(new java.awt.Font("Lucida Sans", 0, 24)); // NOI18N
+        Manage_Book.setForeground(new java.awt.Color(0, 0, 255));
         Manage_Book.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/agenda (1).png"))); // NOI18N
         Manage_Book.setText("จัดการหนังสือ");
         Manage_Book.setBorder(null);

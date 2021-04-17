@@ -155,52 +155,53 @@ public class Update_Member extends javax.swing.JFrame {
         member_code_jtext.setFont(new java.awt.Font("Mali", 0, 16)); // NOI18N
         getContentPane().add(member_code_jtext, new org.netbeans.lib.awtextra.AbsoluteConstraints(980, 90, 260, 30));
 
-        jLabel18.setFont(new java.awt.Font("Mali", 0, 18)); // NOI18N
-        jLabel18.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel18.setFont(new java.awt.Font("Lucida Sans", 0, 18)); // NOI18N
+        jLabel18.setForeground(new java.awt.Color(0, 255, 255));
         jLabel18.setText("วันที่สมัคสมาชิก:");
         getContentPane().add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 560, 150, 30));
 
-        jLabel17.setFont(new java.awt.Font("Mali", 0, 18)); // NOI18N
-        jLabel17.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel17.setFont(new java.awt.Font("Lucida Sans", 0, 18)); // NOI18N
+        jLabel17.setForeground(new java.awt.Color(0, 255, 255));
         jLabel17.setText("เบอร์โทร:");
         getContentPane().add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(890, 510, 90, 30));
 
-        jLabel16.setFont(new java.awt.Font("Mali", 0, 18)); // NOI18N
-        jLabel16.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel16.setFont(new java.awt.Font("Lucida Sans", 0, 18)); // NOI18N
+        jLabel16.setForeground(new java.awt.Color(0, 255, 255));
         jLabel16.setText("เพศ :");
         getContentPane().add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 400, 60, 30));
 
-        jLabel15.setFont(new java.awt.Font("Mali", 0, 18)); // NOI18N
-        jLabel15.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel15.setFont(new java.awt.Font("Lucida Sans", 0, 18)); // NOI18N
+        jLabel15.setForeground(new java.awt.Color(0, 255, 255));
         jLabel15.setText("ชื่อสมาชิก :");
         getContentPane().add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(880, 140, 100, 30));
 
-        jLabel14.setFont(new java.awt.Font("Mali", 0, 18)); // NOI18N
-        jLabel14.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel14.setFont(new java.awt.Font("Lucida Sans", 0, 18)); // NOI18N
+        jLabel14.setForeground(new java.awt.Color(0, 255, 255));
         jLabel14.setText("ที่อยู่ :");
         getContentPane().add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 460, 60, 30));
 
-        jLabel13.setFont(new java.awt.Font("Mali", 0, 18)); // NOI18N
-        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel13.setFont(new java.awt.Font("Lucida Sans", 0, 18)); // NOI18N
+        jLabel13.setForeground(new java.awt.Color(0, 255, 255));
         jLabel13.setText("วันเดือนปีเกิด :");
         getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 340, 130, 30));
 
-        jLabel12.setFont(new java.awt.Font("Mali", 0, 18)); // NOI18N
-        jLabel12.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel12.setFont(new java.awt.Font("Lucida Sans", 0, 18)); // NOI18N
+        jLabel12.setForeground(new java.awt.Color(0, 255, 255));
         jLabel12.setText("รหัสบัตรประชาชน :");
         getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 270, 170, 30));
 
-        jLabel10.setFont(new java.awt.Font("Mali", 0, 18)); // NOI18N
-        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel10.setFont(new java.awt.Font("Lucida Sans", 0, 18)); // NOI18N
+        jLabel10.setForeground(new java.awt.Color(0, 255, 255));
         jLabel10.setText("นามสกุล :");
         getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(890, 210, 90, 30));
 
-        jLabel9.setFont(new java.awt.Font("Mali", 0, 18)); // NOI18N
-        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel9.setFont(new java.awt.Font("Lucida Sans", 0, 18)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(0, 255, 255));
         jLabel9.setText("รหัสสมาชิก :");
         getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 90, 110, 30));
 
-        update_member.setFont(new java.awt.Font("Mali", 0, 18)); // NOI18N
+        update_member.setFont(new java.awt.Font("Lucida Sans", 0, 18)); // NOI18N
+        update_member.setForeground(new java.awt.Color(0, 0, 204));
         update_member.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/edit-account-member-user-profile-512.png"))); // NOI18N
         update_member.setText("เเก้ไขสมาชิก");
         update_member.setBorder(null);
@@ -229,9 +230,10 @@ public class Update_Member extends javax.swing.JFrame {
         });
         jScrollPane2.setViewportView(jTable1);
 
-        getContentPane().add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 110, 760, 540));
+        getContentPane().add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 130, 760, 540));
 
-        Back.setFont(new java.awt.Font("Mali", 0, 20)); // NOI18N
+        Back.setFont(new java.awt.Font("Lucida Sans", 0, 18)); // NOI18N
+        Back.setForeground(new java.awt.Color(0, 0, 204));
         Back.setText("Back");
         Back.setBorder(null);
         Back.addActionListener(new java.awt.event.ActionListener() {
@@ -242,9 +244,10 @@ public class Update_Member extends javax.swing.JFrame {
         getContentPane().add(Back, new org.netbeans.lib.awtextra.AbsoluteConstraints(1150, 660, 130, 60));
 
         SeachBar.setFont(new java.awt.Font("Mali", 0, 16)); // NOI18N
-        getContentPane().add(SeachBar, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 70, 430, 30));
+        getContentPane().add(SeachBar, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 90, 430, 30));
 
-        SearchItem.setFont(new java.awt.Font("Mali", 0, 16)); // NOI18N
+        SearchItem.setFont(new java.awt.Font("Lucida Sans", 0, 18)); // NOI18N
+        SearchItem.setForeground(new java.awt.Color(0, 0, 204));
         SearchItem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/search.png"))); // NOI18N
         SearchItem.setText("ค้นหา");
         SearchItem.setBorder(null);
@@ -253,15 +256,15 @@ public class Update_Member extends javax.swing.JFrame {
                 SearchItemActionPerformed(evt);
             }
         });
-        getContentPane().add(SearchItem, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 70, 130, 30));
+        getContentPane().add(SearchItem, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 90, 130, 30));
 
-        jLabel4.setFont(new java.awt.Font("Mali", 0, 18)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel4.setFont(new java.awt.Font("Lucida Sans", 0, 18)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(0, 0, 255));
         jLabel4.setText("ค้นหาชื่อสมาชิก :");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(72, 70, 150, 30));
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 90, 150, 30));
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/pocket_monsters_2019_anime_logo_translation_by_sliter_ddomqsd-fullview.png"))); // NOI18N
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 0, -1, 50));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 10, -1, 50));
 
         jLabel1.setFont(new java.awt.Font("Mali", 0, 16)); // NOI18N
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Bg (2).jpeg"))); // NOI18N

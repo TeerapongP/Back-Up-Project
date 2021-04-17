@@ -62,7 +62,8 @@ public class report extends javax.swing.JFrame {
         setForeground(java.awt.Color.white);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        SearchItem.setFont(new java.awt.Font("Mali", 0, 16)); // NOI18N
+        SearchItem.setFont(new java.awt.Font("Lucida Sans", 0, 18)); // NOI18N
+        SearchItem.setForeground(new java.awt.Color(0, 0, 255));
         SearchItem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/search.png"))); // NOI18N
         SearchItem.setText("ค้นหา");
         SearchItem.setBorder(null);
@@ -71,12 +72,12 @@ public class report extends javax.swing.JFrame {
                 SearchItemActionPerformed(evt);
             }
         });
-        getContentPane().add(SearchItem, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 100, 130, 30));
+        getContentPane().add(SearchItem, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 120, 130, 30));
 
-        jLabel4.setFont(new java.awt.Font("Mali", 0, 18)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel4.setFont(new java.awt.Font("Lucida Sans", 0, 18)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 153));
         jLabel4.setText("ค้นหาวันที่ขาย :");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 100, 130, 30));
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 120, 130, 30));
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -91,9 +92,10 @@ public class report extends javax.swing.JFrame {
         ));
         jScrollPane2.setViewportView(jTable1);
 
-        getContentPane().add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 140, 820, 450));
+        getContentPane().add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 170, 820, 450));
 
-        Excel.setFont(new java.awt.Font("Mali", 0, 18)); // NOI18N
+        Excel.setFont(new java.awt.Font("Lucida Sans", 0, 18)); // NOI18N
+        Excel.setForeground(new java.awt.Color(0, 204, 0));
         Excel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/excel.png"))); // NOI18N
         Excel.setText("Export Excel");
         Excel.setBorder(null);
@@ -102,20 +104,22 @@ public class report extends javax.swing.JFrame {
                 ExcelActionPerformed(evt);
             }
         });
-        getContentPane().add(Excel, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 220, 150, 60));
+        getContentPane().add(Excel, new org.netbeans.lib.awtextra.AbsoluteConstraints(950, 220, 150, 60));
 
-        Json.setFont(new java.awt.Font("Mali", 0, 18)); // NOI18N
+        Json.setFont(new java.awt.Font("Lucida Sans", 0, 18)); // NOI18N
+        Json.setForeground(new java.awt.Color(255, 153, 0));
         Json.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/json.png"))); // NOI18N
-        Json.setText("Export JSON");
+        Json.setText("Export Json");
         Json.setBorder(null);
         Json.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 JsonActionPerformed(evt);
             }
         });
-        getContentPane().add(Json, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 350, 150, 60));
+        getContentPane().add(Json, new org.netbeans.lib.awtextra.AbsoluteConstraints(950, 350, 150, 60));
 
         Back_To_Main.setFont(new java.awt.Font("Mali", 0, 18)); // NOI18N
+        Back_To_Main.setForeground(new java.awt.Color(0, 0, 204));
         Back_To_Main.setText("Back To Main");
         Back_To_Main.setBorder(null);
         Back_To_Main.addActionListener(new java.awt.event.ActionListener() {
@@ -126,10 +130,10 @@ public class report extends javax.swing.JFrame {
         getContentPane().add(Back_To_Main, new org.netbeans.lib.awtextra.AbsoluteConstraints(1120, 660, 160, 60));
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/pocket_monsters_2019_anime_logo_translation_by_sliter_ddomqsd-fullview.png"))); // NOI18N
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 0, -1, 50));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 10, -1, 50));
 
         date_sell.setDateFormatString("d  MMM , yyyy");
-        getContentPane().add(date_sell, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 100, 420, 30));
+        getContentPane().add(date_sell, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 120, 420, 30));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/BG (3).jpg"))); // NOI18N
         jLabel1.setText("jLabel1");

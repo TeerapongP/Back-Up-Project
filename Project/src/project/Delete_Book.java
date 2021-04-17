@@ -45,7 +45,8 @@ public class Delete_Book extends javax.swing.JFrame {
         setForeground(java.awt.Color.white);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        Back.setFont(new java.awt.Font("Mali", 0, 20)); // NOI18N
+        Back.setFont(new java.awt.Font("Lucida Sans", 0, 18)); // NOI18N
+        Back.setForeground(new java.awt.Color(0, 0, 255));
         Back.setText("Back");
         Back.setBorder(null);
         Back.addActionListener(new java.awt.event.ActionListener() {
@@ -55,7 +56,8 @@ public class Delete_Book extends javax.swing.JFrame {
         });
         getContentPane().add(Back, new org.netbeans.lib.awtextra.AbsoluteConstraints(1150, 660, 130, 60));
 
-        DeleteButton.setFont(new java.awt.Font("Mali", 0, 24)); // NOI18N
+        DeleteButton.setFont(new java.awt.Font("Lucida Sans", 0, 24)); // NOI18N
+        DeleteButton.setForeground(new java.awt.Color(255, 0, 0));
         DeleteButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/book-with-cross-delete-symbol.png"))); // NOI18N
         DeleteButton.setText("ลบหนังสือ");
         DeleteButton.setBorder(null);
@@ -66,8 +68,8 @@ public class Delete_Book extends javax.swing.JFrame {
         });
         getContentPane().add(DeleteButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 280, 220, 60));
 
-        jLabel3.setFont(new java.awt.Font("Mali", 0, 24)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel3.setFont(new java.awt.Font("Lucida Sans", 0, 24)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(102, 255, 255));
         jLabel3.setText("ชื่อหนังสือ :");
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 190, -1, 40));
 
@@ -75,7 +77,7 @@ public class Delete_Book extends javax.swing.JFrame {
         getContentPane().add(SearchBar, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 190, 610, 40));
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/pocket_monsters_2019_anime_logo_translation_by_sliter_ddomqsd-fullview.png"))); // NOI18N
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 0, -1, 50));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 20, -1, 50));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Bg2.jpg"))); // NOI18N
         jLabel1.setText("jLabel1");

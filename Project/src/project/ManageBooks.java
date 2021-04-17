@@ -63,13 +63,13 @@ public class ManageBooks extends javax.swing.JFrame {
         setForeground(java.awt.Color.white);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel4.setFont(new java.awt.Font("Mali", 0, 18)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel4.setFont(new java.awt.Font("Lucida Sans", 0, 18)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 153));
         jLabel4.setText("ค้นหาชื่อหนังสือ :");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(77, 80, 160, 30));
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 120, 160, 30));
 
         SeachBar.setFont(new java.awt.Font("Mali", 0, 16)); // NOI18N
-        getContentPane().add(SeachBar, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 80, 430, 30));
+        getContentPane().add(SeachBar, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 120, 430, 30));
 
         jPanel3.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -86,7 +86,8 @@ public class ManageBooks extends javax.swing.JFrame {
 
         getContentPane().add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 670, -1, -1));
 
-        SearchItem.setFont(new java.awt.Font("Mali", 0, 16)); // NOI18N
+        SearchItem.setFont(new java.awt.Font("Lucida Sans", 0, 18)); // NOI18N
+        SearchItem.setForeground(new java.awt.Color(0, 0, 255));
         SearchItem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/search.png"))); // NOI18N
         SearchItem.setText("ค้นหา");
         SearchItem.setBorder(null);
@@ -95,7 +96,7 @@ public class ManageBooks extends javax.swing.JFrame {
                 SearchItemActionPerformed(evt);
             }
         });
-        getContentPane().add(SearchItem, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 80, 130, 30));
+        getContentPane().add(SearchItem, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 120, 130, 30));
 
         jTable1.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
@@ -111,9 +112,10 @@ public class ManageBooks extends javax.swing.JFrame {
         ));
         jScrollPane2.setViewportView(jTable1);
 
-        getContentPane().add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 140, 850, 430));
+        getContentPane().add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 170, 850, 430));
 
-        InsertBook1.setFont(new java.awt.Font("Mali", 0, 16)); // NOI18N
+        InsertBook1.setFont(new java.awt.Font("Lucida Sans", 0, 18)); // NOI18N
+        InsertBook1.setForeground(new java.awt.Color(0, 0, 255));
         InsertBook1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/add.png"))); // NOI18N
         InsertBook1.setText("เพิ่มหนังสือ");
         InsertBook1.setBorder(null);
@@ -129,7 +131,8 @@ public class ManageBooks extends javax.swing.JFrame {
         });
         getContentPane().add(InsertBook1, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 140, 150, 60));
 
-        DeleteBook.setFont(new java.awt.Font("Mali", 0, 16)); // NOI18N
+        DeleteBook.setFont(new java.awt.Font("Lucida Sans", 0, 18)); // NOI18N
+        DeleteBook.setForeground(new java.awt.Color(255, 0, 0));
         DeleteBook.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/book-with-cross-delete-symbol.png"))); // NOI18N
         DeleteBook.setText("ลบหนังสือ");
         DeleteBook.setBorder(null);
@@ -140,7 +143,8 @@ public class ManageBooks extends javax.swing.JFrame {
         });
         getContentPane().add(DeleteBook, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 350, 150, 60));
 
-        EditBook1.setFont(new java.awt.Font("Mali", 0, 16)); // NOI18N
+        EditBook1.setFont(new java.awt.Font("Lucida Sans", 0, 18)); // NOI18N
+        EditBook1.setForeground(new java.awt.Color(255, 0, 255));
         EditBook1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/edit.png"))); // NOI18N
         EditBook1.setText("เเก้ไขหนังสือ");
         EditBook1.setBorder(null);
@@ -156,7 +160,8 @@ public class ManageBooks extends javax.swing.JFrame {
         });
         getContentPane().add(EditBook1, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 250, 150, 60));
 
-        Excel.setFont(new java.awt.Font("Mali", 0, 18)); // NOI18N
+        Excel.setFont(new java.awt.Font("Lucida Sans", 0, 18)); // NOI18N
+        Excel.setForeground(new java.awt.Color(0, 204, 0));
         Excel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/excel.png"))); // NOI18N
         Excel.setText("Export Excel");
         Excel.setBorder(null);
@@ -167,7 +172,8 @@ public class ManageBooks extends javax.swing.JFrame {
         });
         getContentPane().add(Excel, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 460, 150, 60));
 
-        Back_To_Main.setFont(new java.awt.Font("Mali", 0, 18)); // NOI18N
+        Back_To_Main.setFont(new java.awt.Font("Lucida Sans", 0, 18)); // NOI18N
+        Back_To_Main.setForeground(new java.awt.Color(0, 0, 204));
         Back_To_Main.setText("Back To Main");
         Back_To_Main.setBorder(null);
         Back_To_Main.addActionListener(new java.awt.event.ActionListener() {
@@ -177,9 +183,10 @@ public class ManageBooks extends javax.swing.JFrame {
         });
         getContentPane().add(Back_To_Main, new org.netbeans.lib.awtextra.AbsoluteConstraints(1120, 660, 160, 60));
 
-        Json.setFont(new java.awt.Font("Mali", 0, 18)); // NOI18N
+        Json.setFont(new java.awt.Font("Lucida Sans", 0, 18)); // NOI18N
+        Json.setForeground(new java.awt.Color(255, 153, 0));
         Json.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/json.png"))); // NOI18N
-        Json.setText("Export JSON");
+        Json.setText("Export Json");
         Json.setBorder(null);
         Json.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -189,7 +196,7 @@ public class ManageBooks extends javax.swing.JFrame {
         getContentPane().add(Json, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 560, 150, 60));
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/pocket_monsters_2019_anime_logo_translation_by_sliter_ddomqsd-fullview.png"))); // NOI18N
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 0, -1, 50));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 20, -1, 50));
 
         jLabel3.setFont(new java.awt.Font("Mali", 0, 16)); // NOI18N
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/BG (3).jpg"))); // NOI18N

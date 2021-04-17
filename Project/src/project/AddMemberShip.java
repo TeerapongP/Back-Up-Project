@@ -83,7 +83,8 @@ public class AddMemberShip extends javax.swing.JFrame {
 
         jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Pikcachu.gif"))); // NOI18N
 
-        RestoreSystem.setFont(new java.awt.Font("Mali", 0, 16)); // NOI18N
+        RestoreSystem.setFont(new java.awt.Font("Angsana New", 3, 24)); // NOI18N
+        RestoreSystem.setForeground(new java.awt.Color(83, 109, 254));
         RestoreSystem.setText("จัดการระบบคืน");
         RestoreSystem.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -91,7 +92,8 @@ public class AddMemberShip extends javax.swing.JFrame {
             }
         });
 
-        Main.setFont(new java.awt.Font("Mali", 0, 16)); // NOI18N
+        Main.setFont(new java.awt.Font("Angsana New", 3, 24)); // NOI18N
+        Main.setForeground(new java.awt.Color(83, 109, 254));
         Main.setText("หน้าหลัก");
         Main.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -99,7 +101,8 @@ public class AddMemberShip extends javax.swing.JFrame {
             }
         });
 
-        Membership.setFont(new java.awt.Font("Mali", 0, 16)); // NOI18N
+        Membership.setFont(new java.awt.Font("Angsana New", 3, 24)); // NOI18N
+        Membership.setForeground(new java.awt.Color(83, 109, 254));
         Membership.setText("จัดการระบบสมาชิก");
         Membership.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -107,7 +110,8 @@ public class AddMemberShip extends javax.swing.JFrame {
             }
         });
 
-        ManagementSystem.setFont(new java.awt.Font("Mali", 0, 16)); // NOI18N
+        ManagementSystem.setFont(new java.awt.Font("Angsana New", 3, 24)); // NOI18N
+        ManagementSystem.setForeground(new java.awt.Color(83, 109, 254));
         ManagementSystem.setText("จัดการระบบเช่า");
         ManagementSystem.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -115,7 +119,8 @@ public class AddMemberShip extends javax.swing.JFrame {
             }
         });
 
-        LogIn.setFont(new java.awt.Font("Mali", 0, 16)); // NOI18N
+        LogIn.setFont(new java.awt.Font("Angsana New", 3, 24)); // NOI18N
+        LogIn.setForeground(new java.awt.Color(83, 109, 254));
         LogIn.setText("ออกจากระบบ");
         LogIn.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -123,7 +128,8 @@ public class AddMemberShip extends javax.swing.JFrame {
             }
         });
 
-        Main1.setFont(new java.awt.Font("Mali", 0, 16)); // NOI18N
+        Main1.setFont(new java.awt.Font("Angsana New", 3, 24)); // NOI18N
+        Main1.setForeground(new java.awt.Color(83, 109, 254));
         Main1.setText("จัดการหนังสือ");
         Main1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -137,7 +143,7 @@ public class AddMemberShip extends javax.swing.JFrame {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addComponent(jLabel2)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 48, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 118, Short.MAX_VALUE)
                 .addComponent(Main)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(Main1)
@@ -188,45 +194,45 @@ public class AddMemberShip extends javax.swing.JFrame {
         getContentPane().add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 670, -1, -1));
 
         call_member1.setFont(new java.awt.Font("Mali", 0, 16)); // NOI18N
-        getContentPane().add(call_member1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 550, 390, 30));
+        getContentPane().add(call_member1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 540, 390, 30));
 
-        jLabel17.setFont(new java.awt.Font("Mali", 0, 18)); // NOI18N
-        jLabel17.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel17.setFont(new java.awt.Font("Lucida Sans", 0, 18)); // NOI18N
+        jLabel17.setForeground(new java.awt.Color(255, 153, 0));
         jLabel17.setText("เบอร์โทร :");
-        getContentPane().add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 550, 110, 30));
+        getContentPane().add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 540, 110, 30));
 
-        jLabel16.setFont(new java.awt.Font("Mali", 0, 18)); // NOI18N
-        jLabel16.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel16.setFont(new java.awt.Font("Lucida Sans", 0, 18)); // NOI18N
+        jLabel16.setForeground(new java.awt.Color(255, 153, 0));
         jLabel16.setText("วันที่สมัคสมาชิก :");
-        getContentPane().add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 630, 170, 30));
+        getContentPane().add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 620, 170, 30));
 
-        jLabel15.setFont(new java.awt.Font("Mali", 0, 18)); // NOI18N
-        jLabel15.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel15.setFont(new java.awt.Font("Lucida Sans", 0, 18)); // NOI18N
+        jLabel15.setForeground(new java.awt.Color(255, 153, 0));
         jLabel15.setText("ที่อยู่ :");
-        getContentPane().add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 480, 90, 30));
+        getContentPane().add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 470, 90, 30));
 
-        jLabel14.setFont(new java.awt.Font("Mali", 0, 18)); // NOI18N
-        jLabel14.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel14.setFont(new java.awt.Font("Lucida Sans", 0, 18)); // NOI18N
+        jLabel14.setForeground(new java.awt.Color(255, 153, 0));
         jLabel14.setText("วัน / ปี / เกิด :");
-        getContentPane().add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 390, 160, 30));
+        getContentPane().add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 390, 160, 30));
 
-        jLabel13.setFont(new java.awt.Font("Mali", 0, 18)); // NOI18N
-        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel13.setFont(new java.awt.Font("Lucida Sans", 0, 18)); // NOI18N
+        jLabel13.setForeground(new java.awt.Color(255, 153, 0));
         jLabel13.setText("นามสกุล :");
         getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 230, 140, 30));
 
-        jLabel12.setFont(new java.awt.Font("Mali", 0, 18)); // NOI18N
-        jLabel12.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel12.setFont(new java.awt.Font("Lucida Sans", 0, 18)); // NOI18N
+        jLabel12.setForeground(new java.awt.Color(255, 153, 0));
         jLabel12.setText("รหัสบัตรประชาชน :");
         getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 300, 200, 30));
 
-        jLabel9.setFont(new java.awt.Font("Mali", 0, 18)); // NOI18N
-        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel9.setFont(new java.awt.Font("Lucida Sans", 0, 18)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(255, 153, 0));
         jLabel9.setText("ชื่อสมาชิก :");
         getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 230, 140, 30));
 
         adress_member.setFont(new java.awt.Font("Mali", 0, 16)); // NOI18N
-        getContentPane().add(adress_member, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 480, 390, 30));
+        getContentPane().add(adress_member, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 470, 390, 30));
 
         personal_code.setFont(new java.awt.Font("Mali", 0, 16)); // NOI18N
         getContentPane().add(personal_code, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 300, 390, 30));
@@ -241,13 +247,13 @@ public class AddMemberShip extends javax.swing.JFrame {
         member_code.setFont(new java.awt.Font("Mali", 0, 16)); // NOI18N
         getContentPane().add(member_code, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 150, 390, 30));
 
-        jLabel10.setFont(new java.awt.Font("Mali", 0, 18)); // NOI18N
-        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel10.setFont(new java.awt.Font("Lucida Sans", 0, 18)); // NOI18N
+        jLabel10.setForeground(new java.awt.Color(255, 153, 0));
         jLabel10.setText("รหัสสมาชิก :");
         getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 150, 130, 30));
 
-        Female.setFont(new java.awt.Font("Mali", 0, 18)); // NOI18N
-        Female.setForeground(new java.awt.Color(255, 255, 255));
+        Female.setFont(new java.awt.Font("Lucida Sans", 0, 18)); // NOI18N
+        Female.setForeground(new java.awt.Color(255, 0, 255));
         Female.setText("Female");
         Female.setBorder(null);
         Female.addActionListener(new java.awt.event.ActionListener() {
@@ -255,10 +261,10 @@ public class AddMemberShip extends javax.swing.JFrame {
                 FemaleActionPerformed(evt);
             }
         });
-        getContentPane().add(Female, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 380, -1, 40));
+        getContentPane().add(Female, new org.netbeans.lib.awtextra.AbsoluteConstraints(860, 290, 80, 40));
 
-        Male.setFont(new java.awt.Font("Mali", 0, 18)); // NOI18N
-        Male.setForeground(new java.awt.Color(255, 255, 255));
+        Male.setFont(new java.awt.Font("Lucida Sans", 0, 18)); // NOI18N
+        Male.setForeground(new java.awt.Color(0, 0, 255));
         Male.setText("Male");
         Male.setBorder(null);
         Male.addActionListener(new java.awt.event.ActionListener() {
@@ -266,9 +272,10 @@ public class AddMemberShip extends javax.swing.JFrame {
                 MaleActionPerformed(evt);
             }
         });
-        getContentPane().add(Male, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 380, -1, 40));
+        getContentPane().add(Male, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 290, 60, 40));
 
-        Insert_book.setFont(new java.awt.Font("Mali", 0, 24)); // NOI18N
+        Insert_book.setFont(new java.awt.Font("Lucida Sans", 0, 24)); // NOI18N
+        Insert_book.setForeground(new java.awt.Color(0, 0, 204));
         Insert_book.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/user-2493635_960_720.png"))); // NOI18N
         Insert_book.setText("เพิ่มสมาชิก");
         Insert_book.setBorder(null);
@@ -277,9 +284,10 @@ public class AddMemberShip extends javax.swing.JFrame {
                 Insert_bookActionPerformed(evt);
             }
         });
-        getContentPane().add(Insert_book, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 510, 220, 60));
+        getContentPane().add(Insert_book, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 390, 220, 60));
 
-        Back1.setFont(new java.awt.Font("Mali", 0, 20)); // NOI18N
+        Back1.setFont(new java.awt.Font("Lucida Sans", 0, 20)); // NOI18N
+        Back1.setForeground(new java.awt.Color(0, 0, 255));
         Back1.setText("Back");
         Back1.setBorder(null);
         Back1.addActionListener(new java.awt.event.ActionListener() {
@@ -288,8 +296,8 @@ public class AddMemberShip extends javax.swing.JFrame {
             }
         });
         getContentPane().add(Back1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1150, 660, 130, 60));
-        getContentPane().add(register_member, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 630, 210, 30));
-        getContentPane().add(Birth_day, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 390, 210, 30));
+        getContentPane().add(register_member, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 620, 210, 30));
+        getContentPane().add(Birth_day, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 390, 210, 30));
 
         jLabel3.setFont(new java.awt.Font("Mali", 0, 16)); // NOI18N
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/BG (2).jpg"))); // NOI18N
